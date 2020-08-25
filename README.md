@@ -8,8 +8,8 @@ Tienes que tener previamente instalado
 
 [Python3](www.python.org)
 
+Pip
 ```bash
-Pip 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 ```
 
