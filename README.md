@@ -81,7 +81,7 @@ En la raiz del proyecto correr el CLI de python3 `python3` e ingresar el siguien
 En el archivo `servicio.sql` se encuntran usuarios creados manualmente para testeo. Debe correrlos
 manualmente en MySQL.
 
-Siguiente solo es correr el proyecto: `python3 run.py
+Siguiente solo es correr el proyecto: `python3 run.py`
 
 ## Previews
 ![alt text](https://github.com/DavidBanda/Flask-ITCHII/blob/master/prevs/pw-1.png)
