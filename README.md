@@ -6,7 +6,7 @@ sitio web de administracion de visitas para el ITCHII
 
 Tienes que tener previamente instalado
 
-[Python3](www.python.org)
+[Python 3.7](www.python.org)
 
 ```bash
 Pip
