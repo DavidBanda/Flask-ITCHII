@@ -32,4 +32,4 @@ insert into user (id, name, email, access, image_file, password, department) val
 
 # admin
 
-insert into user (id, name, email, access, image_file, password, department) values  (5, 'David Aaron Banda Gutierrez', 'admin@blog.com', 4, 'default.png', '$2b$12$MzHHAnISelRydIRCwBUwI.LnU0PBTDSsAVTOOwGOQWSh/8X2wJJoK', 3);
+insert into user (id, name, email, access, image_file, password, department) values  (5, 'David Aaron Banda Gutierrez', 'admin@blog.com', 4, 'default.png', '$2b$12$oeEGgoW3tPv.9juaJewbDe.6seYMhRa0NPA0K6RUzq84jlf4Gdesa', 3);
