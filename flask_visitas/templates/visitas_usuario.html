@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1 class="mb-3">Mis visitas ({{ visitas.total }})</h1>
+    {% if current_user.access == 0 %}
+        <h1 class="mb-3">Mis visitas ({{ visitas.total }})</h1>
+    {% else %}
+        <h1 class="mb-3">Visitas de {{user.get_username()}} ({{ visitas.total }})</h1>
+    {% endif %}
     {% for visita in visitas.items %}
     <article class="media content-section">
         <img src="{{ url_for('static', filename='profile_pics/' + visita.author.image_file) }}"
